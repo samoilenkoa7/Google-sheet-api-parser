@@ -1,6 +1,6 @@
 # Google-sheets-api-parser
 Script that takes data from auction website and renew data in your google sheet automaticaly
-every 15 minnutes
+every 15 minutes
 
 # Installation
 Clone the repository using
