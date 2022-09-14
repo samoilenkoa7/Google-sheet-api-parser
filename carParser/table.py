@@ -34,7 +34,7 @@ sheet_id = "12YBjeGwLfgNgmUDDOPJNybSG55Iu8BSCJZwXco7TZQs"
 # reading table and changing local data
 def change_data():
     sheet = service.spreadsheets()
-    # reading some part of table, list 'carParser', block 'G2:I100'
+    # reading some part of table, list 'carParser', block 'G2:I100' or your block of sheet
     resp = sheet.values().get(spreadsheetId=sheet_id, range="carParser!G2:I100").execute()
     # changing data in lists of dict resp
     for row in resp['values']:
