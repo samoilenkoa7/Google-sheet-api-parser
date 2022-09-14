@@ -21,4 +21,3 @@ You need to create your google development account, start project, create servic
 
 and install credentials, rename it to saac1.json and move to .carParser/creds/.
 
-Also, if you want work using API Key, insert it to ./carParser/creds/__init__.py
