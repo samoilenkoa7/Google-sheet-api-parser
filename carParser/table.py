@@ -8,10 +8,6 @@ from carParser import status
 from carParser import creds
 
 
-def get_service_simple():
-    return build('sheets', 'v4', developerKey=creds.api_key)
-
-
 def get_service_sacc():
     """
     Giving acces to service account
